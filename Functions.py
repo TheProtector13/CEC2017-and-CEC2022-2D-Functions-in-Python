@@ -417,55 +417,55 @@ class Functions:
                                   [[9.6709174147309462e-01,   2.5442791429899514e-01],
                                    [2.5442791429899558e-01,  -9.6709174147309485e-01]]])
         # Optimal Solutions for CEC2017
-        self.opt1 = 100
-        self.opt2 = 200
-        self.opt3 = 300
-        self.opt4 = 400
-        self.opt5 = 500
-        self.opt6 = 600
-        self.opt7 = 700
-        self.opt8 = 800
-        self.opt9 = 900
-        self.opt10 = 1000
-        self.opt11 = 1100
-        self.opt12 = 1200
-        self.opt13 = 1300
-        self.opt14 = 1400
-        self.opt15 = 1500
-        self.opt16 = 1600
-        self.opt17 = 1700
-        self.opt18 = 1800
-        self.opt19 = 1900
-        self.opt20 = 2000
-        self.opt21 = 2100
-        self.opt22 = 2200
-        self.opt23 = 2300
-        self.opt24 = 2400
-        self.opt25 = 2500
-        self.opt26 = 2600
-        self.opt27 = 2700
-        self.opt28 = 2800
-        self.opt29 = 2900
+        self.C17_1_Opt = 100
+        self.C17_2_Opt = 200
+        self.C17_3_Opt = 300
+        self.C17_4_Opt = 400
+        self.C17_5_Opt = 500
+        self.C17_6_Opt = 600
+        self.C17_7_Opt = 700
+        self.C17_8_Opt = 800
+        self.C17_9_Opt = 900
+        self.C17_10_Opt = 1000
+        self.C17_11_Opt = 1100
+        self.C17_12_Opt = 1200
+        self.C17_13_Opt = 1300
+        self.C17_14_Opt = 1400
+        self.C17_15_Opt = 1500
+        self.C17_16_Opt = 1600
+        self.C17_17_Opt = 1700
+        self.C17_18_Opt = 1800
+        self.C17_19_Opt = 1900
+        self.C17_20_Opt = 2000
+        self.C17_21_Opt = 2100
+        self.C17_22_Opt = 2200
+        self.C17_23_Opt = 2300
+        self.C17_24_Opt = 2400
+        self.C17_25_Opt = 2500
+        self.C17_26_Opt = 2600
+        self.C17_27_Opt = 2700
+        self.C17_28_Opt = 2800
+        self.C17_29_Opt = 2900
         # Optimal Solutions for CEC2022
-        self.opt1_22 = 300
-        self.opt2_22 = 400
-        self.opt3_22 = 600
-        self.opt4_22 = 800
-        self.opt5_22 = 900
-        self.opt6_22 = 1800
-        self.opt7_22 = 2000
-        self.opt8_22 = 2200
-        self.opt9_22 = 2300
-        self.opt10_22 = 2400
-        self.opt11_22 = 2600
-        self.opt12_22 = 2700
-        self.CEC2017_Opts = [self.opt1, self.opt2, self.opt3, self.opt4, self.opt5, self.opt6, self.opt7, self.opt8, self.opt9,
-                            self.opt20, self.opt21, self.opt22, self.opt23, self.opt24, self.opt25, self.opt26, self.opt27]
-        self.CEC2017_Unofficial_Opts = [self.opt10, self.opt11, self.opt12, self.opt13, self.opt14, self.opt15, self.opt16, self.opt17,
-                                        self.opt18, self.opt19]
-        self.CEC2022_Opts = [self.opt1_22, self.opt2_22, self.opt3_22, self.opt4_22, self.opt5_22, self.opt9_22, self.opt10_22, self.opt11_22, self.opt12_22]
-        self.CEC2022_Alt_Opts = [self.opt9_22, self.opt10_22, self.opt11_22, self.opt12_22]
-        self.CEC2022_Unofficial_Opts = [self.opt6_22, self.opt7_22, self.opt8_22]
+        self.C22_1_Opt = 300
+        self.C22_2_Opt = 400
+        self.C22_3_Opt = 600
+        self.C22_4_Opt = 800
+        self.C22_5_Opt = 900
+        self.C22_6_Opt = 1800
+        self.C22_7_Opt = 2000
+        self.C22_8_Opt = 2200
+        self.C22_9_Opt = 2300
+        self.C22_10_Opt = 2400
+        self.C22_11_Opt = 2600
+        self.C22_12_Opt = 2700
+        self.CEC2017_Opts = [self.C17_1_Opt, self.C17_2_Opt, self.C17_3_Opt, self.C17_4_Opt, self.C17_5_Opt, self.C17_6_Opt, self.C17_7_Opt, self.C17_8_Opt, self.C17_9_Opt,
+                            self.C17_20_Opt, self.C17_21_Opt, self.C17_22_Opt, self.C17_23_Opt, self.C17_24_Opt, self.C17_25_Opt, self.C17_26_Opt, self.C17_27_Opt]
+        self.CEC2017_Unofficial_Opts = [self.C17_10_Opt, self.C17_11_Opt, self.C17_12_Opt, self.C17_13_Opt, self.C17_14_Opt, self.C17_15_Opt, self.C17_16_Opt, self.C17_17_Opt,
+                                        self.C17_18_Opt, self.C17_19_Opt]
+        self.CEC2022_Opts = [self.C22_1_Opt, self.C22_2_Opt, self.C22_3_Opt, self.C22_4_Opt, self.C22_5_Opt, self.C22_9_Opt, self.C22_10_Opt, self.C22_11_Opt, self.C22_12_Opt]
+        self.CEC2022_Alt_Opts = [self.C22_9_Opt, self.C22_10_Opt, self.C22_11_Opt, self.C22_12_Opt]
+        self.CEC2022_Unofficial_Opts = [self.C22_6_Opt, self.C22_7_Opt, self.C22_8_Opt]
         self.AllOpts = np.concatenate((self.CEC2017_Opts, self.CEC2022_Opts))
         self.AllOptsWithU = np.concatenate((self.CEC2017_Opts, self.CEC2017_Unofficial_Opts, self.CEC2022_Opts, self.CEC2022_Alt_Opts, self.CEC2022_Unofficial_Opts))
 
@@ -483,19 +483,19 @@ class Functions:
         pos = np.array([x, y])
         pos = pos - self.__o1_22
         pos = np.dot(self.__M1_22, pos)
-        return Functions.cec17_2(pos[0], pos[1]) + self.opt1_22
+        return Functions.cec17_2(pos[0], pos[1]) + self.C22_1_Opt
 
     def C22_2(self, x, y):
         pos = np.array([x, y])
         pos = (pos - self.__o2_22) * (2.048 / 100.0)
         pos = np.dot(self.__M2_22, pos)
-        return Functions.cec17_3(pos[0], pos[1]) + self.opt2_22
+        return Functions.cec17_3(pos[0], pos[1]) + self.C22_2_Opt
 
     def C22_3(self, x, y):
         pos = np.array([x, y])
         pos = (pos - self.__o3_22) #* (0.5 / 100.0)
         pos = np.dot(self.__M3_22, pos)
-        return Functions.cec17_19(pos[0], pos[1]) + self.opt3_22
+        return Functions.cec17_19(pos[0], pos[1]) + self.C22_3_Opt
 
     def C22_4(self, x, y):
         pos = np.array([x, y])
@@ -507,13 +507,13 @@ class Functions:
                 yv[i] = round(2.0 * shifted[i]) / 2.0
         pos2 = yv * (5.12 / 100.0)
         pos2 = np.dot(self.__M4_22, pos2)
-        return Functions.cec17_4(pos2[0], pos2[1]) + self.opt4_22
+        return Functions.cec17_4(pos2[0], pos2[1]) + self.C22_4_Opt
 
     def C22_5(self, x, y):
         pos = np.array([x, y])
         pos = pos - self.__o5_22
         pos = np.dot(self.__M5_22, pos)
-        return Functions.cec17_8(pos[0], pos[1]) + self.opt5_22
+        return Functions.cec17_8(pos[0], pos[1]) + self.C22_5_Opt
 
     def C22_9(self, x, y):
         N = 5
@@ -523,7 +523,7 @@ class Functions:
         g = [Functions.cec17_3, Functions.cec17_10, Functions.cec17_1, Functions.cec17_11, Functions.cec17_10]
         scaling = [(2.048 / 100.0), 1, 1, 1, 1]
         r = [True, True, True, True, False]
-        return Functions.CompositeF22(x, y, self.__o9_22, self.__M9_22, sigma, lambda_, bias, g, scaling, r, N) + self.opt9_22
+        return Functions.CompositeF22(x, y, self.__o9_22, self.__M9_22, sigma, lambda_, bias, g, scaling, r, N) + self.C22_9_Opt
 
     def C22_10(self, x, y):
         N = 3
@@ -533,7 +533,7 @@ class Functions:
         g = [Functions.cec17_9, Functions.cec17_4, Functions.cec17_17]
         scaling = [(1000 / 100.0), (5.12/100), 0.05]
         r = [False, True, True]
-        return Functions.CompositeF22(x, y, self.__o10_22, self.__M10_22, sigma, lambda_, bias, g, scaling,r, N) + self.opt10_22
+        return Functions.CompositeF22(x, y, self.__o10_22, self.__M10_22, sigma, lambda_, bias, g, scaling,r, N) + self.C22_10_Opt
 
     def C22_11(self, x, y):
         N = 5
@@ -543,7 +543,7 @@ class Functions:
         g = [Functions.cec17_5, Functions.cec17_9, Functions.cec17_14, Functions.cec17_3, Functions.cec17_4]
         scaling = [1, (1000 / 100.0), (600 / 100.0), (2.048 / 100.0), (5.12 / 100.0)]
         r = [True, True, True, True, True]
-        return Functions.CompositeF22(x, y, self.__o11_22, self.__M11_22, sigma, lambda_, bias, g, scaling,r, N) + self.opt11_22
+        return Functions.CompositeF22(x, y, self.__o11_22, self.__M11_22, sigma, lambda_, bias, g, scaling,r, N) + self.C22_11_Opt
 
     def C22_12(self, x, y):
         N = 6
@@ -553,7 +553,7 @@ class Functions:
         g = [Functions.cec17_17, Functions.cec17_4, Functions.cec17_9, Functions.cec17_1, Functions.cec17_10, Functions.cec17_5]
         scaling = [0.05, (5.12 / 100.0), (1000 / 100.0), 1, 1, 1]
         r = [True, True, True, True, True, True]
-        return Functions.CompositeF22(x, y, self.__o12_22, self.__M12_22, sigma, lambda_, bias, g, scaling,r, N) + self.opt12_22
+        return Functions.CompositeF22(x, y, self.__o12_22, self.__M12_22, sigma, lambda_, bias, g, scaling,r, N) + self.C22_12_Opt
 
     #CEC2022 Composite Alternate
     
@@ -565,7 +565,7 @@ class Functions:
         g = [Functions.cec17_3, Functions.cec17_10, Functions.cec17_1, Functions.cec17_11, Functions.cec17_10]
         scaling = [(2.048 / 100.0), 1, 1, 1, 1]
         r = [True, True, True, True, False]
-        return Functions.CompositeF22(x, y, self.__o9_22, self.__M9_22, sigma, lambda_, bias, g, scaling, r, N) + self.opt9_22
+        return Functions.CompositeF22(x, y, self.__o9_22, self.__M9_22, sigma, lambda_, bias, g, scaling, r, N) + self.C22_9_Opt
 
     def C22_10_Alt(self, x, y):
         N = 3
@@ -575,7 +575,7 @@ class Functions:
         g = [Functions.cec17_9, Functions.cec17_4, Functions.cec17_17]
         scaling = [(1000 / 100.0), (5.12/100), 0.05]
         r = [False, True, True]
-        return Functions.CompositeF22(x, y, self.__o10_22, self.__M10_22, sigma, lambda_, bias, g, scaling,r, N) + self.opt10_22
+        return Functions.CompositeF22(x, y, self.__o10_22, self.__M10_22, sigma, lambda_, bias, g, scaling,r, N) + self.C22_10_Opt
 
     def C22_11_Alt(self, x, y):
         N = 5
@@ -585,7 +585,7 @@ class Functions:
         g = [Functions.cec17_5, Functions.cec17_9, Functions.cec17_14, Functions.cec17_3, Functions.cec17_4]
         scaling = [1, (1000 / 100.0), (600 / 100.0), (2.048 / 100.0), (5.12 / 100.0)]
         r = [True, True, True, True, True]
-        return Functions.CompositeF22(x, y, self.__o11_22, self.__M11_22, sigma, lambda_, bias, g, scaling,r, N) + self.opt11_22
+        return Functions.CompositeF22(x, y, self.__o11_22, self.__M11_22, sigma, lambda_, bias, g, scaling,r, N) + self.C22_11_Opt
 
     def C22_12_Alt(self, x, y):
         N = 6
@@ -595,7 +595,7 @@ class Functions:
         g = [Functions.cec17_17, Functions.cec17_4, Functions.cec17_9, Functions.cec17_1, Functions.cec17_10, Functions.cec17_5]
         scaling = [0.05, (5.12 / 100.0), (1000 / 100.0), 1, 1, 1]
         r = [True, True, True, True, True, True]
-        return Functions.CompositeF22(x, y, self.__o12_22, self.__M12_22, sigma, lambda_, bias, g, scaling,r, N) + self.opt12_22
+        return Functions.CompositeF22(x, y, self.__o12_22, self.__M12_22, sigma, lambda_, bias, g, scaling,r, N) + self.C22_12_Opt
 
     #CEC2022 Unofficial
 
@@ -605,7 +605,7 @@ class Functions:
         scalings = [1, 0.05, (5.12 / 100.0)]
         p = [0.4, 0.4, 0.2]
         maxvals = [19198372964.095142, 25642.33708132911, 20235.675297614067]
-        return Functions.HybridF(x, y, self.__o6_22, self.__M6_22, self.opt6_22, g, scalings, p, maxvals, N)
+        return Functions.HybridF(x, y, self.__o6_22, self.__M6_22, self.C22_6_Opt, g, scalings, p, maxvals, N)
  
     def U_C22_7(self, x, y):
         N = 6
@@ -613,7 +613,7 @@ class Functions:
         scalings = [0.05, 0.05, 1, (5.12 / 100.0), (1000 / 100.0), 1]
         p = [0.1,0.2,0.2,0.2,0.1,0.2]
         maxvals = [23874.460590830808, 78.30151102037843, 22.35040207626628, 19434.63469991283, 1333.2074338833106, 764.0981301770795]
-        return Functions.HybridF(x, y, self.__o7_22, self.__M7_22, self.opt7_22, g, scalings, p, maxvals, N)
+        return Functions.HybridF(x, y, self.__o7_22, self.__M7_22, self.C22_7_Opt, g, scalings, p, maxvals, N)
 
     def U_C22_8(self, x, y):
         N = 5
@@ -621,7 +621,7 @@ class Functions:
         scalings = [0.05, 0.05, 0.05, (1000 / 100.0), 1]
         p = [0.3, 0.2, 0.2, 0.1, 0.2]
         maxvals = [78.30146639008984, 5252.629537405063, 1.4200169209903669e+17, 1342.3030475419641, 22.350399060605657]
-        return Functions.HybridF(x, y, self.__o8_22, self.__M8_22, self.opt8_22, g, scalings, p, maxvals, N)
+        return Functions.HybridF(x, y, self.__o8_22, self.__M8_22, self.C22_8_Opt, g, scalings, p, maxvals, N)
 
     #CEC2017 FUNCTIONS
 
@@ -629,36 +629,36 @@ class Functions:
         pos = np.array([x, y])
         pos = pos - self.__o1
         pos = np.dot(self.__M1, pos)
-        return Functions.cec17_1(pos[0], pos[1]) + self.opt1
+        return Functions.cec17_1(pos[0], pos[1]) + self.C17_1_Opt
 
     def C17_2(self, x, y):
         pos = np.array([x, y])
         pos = pos - self.__o2
         pos = np.dot(self.__M2, pos)
-        return Functions.cec17_2(pos[0], pos[1]) + self.opt2
+        return Functions.cec17_2(pos[0], pos[1]) + self.C17_2_Opt
 
     def C17_3(self, x, y):
         pos = np.array([x, y])
         pos = ((pos - self.__o3)*2.048)/100
         pos = np.dot(self.__M3, pos)
-        return Functions.cec17_3(pos[0], pos[1]) + self.opt3
+        return Functions.cec17_3(pos[0], pos[1]) + self.C17_3_Opt
 
     def C17_4(self, x, y):
         pos = np.array([x, y])
         pos = (pos - self.__o4) * (5.12/100)
         pos = np.dot(self.__M4, pos)
-        return Functions.cec17_4(pos[0], pos[1]) + self.opt4
+        return Functions.cec17_4(pos[0], pos[1]) + self.C17_4_Opt
 
     def C17_5(self, x, y):
         pos = np.array([x, y])
         pos = (pos - self.__o5)
         pos = np.dot(self.__M5, pos)
-        return Functions.cec17_19(pos[0], pos[1]) + self.opt5
+        return Functions.cec17_19(pos[0], pos[1]) + self.C17_5_Opt
 
     def C17_6(self, x, y):
         pos = np.array([x, y])
         pos = (pos - self.__o6) * 0.1
-        return Functions.cec17_6(pos[0], pos[1], self.__M6, self.__o6) + self.opt6
+        return Functions.cec17_6(pos[0], pos[1], self.__M6, self.__o6) + self.C17_6_Opt
 
     def C17_7(self, x, y):
         pos = np.array([x, y])
@@ -670,19 +670,19 @@ class Functions:
                 yv[i] = round(2.0 * shifted[i]) / 2.0
         pos2 = yv * (5.12 / 100.0)
         pos2 = np.dot(self.__M7, pos2)
-        return Functions.cec17_4(pos2[0], pos2[1]) + self.opt7
+        return Functions.cec17_4(pos2[0], pos2[1]) + self.C17_7_Opt
 
     def C17_8(self, x, y):
         pos = np.array([x, y])
         pos = pos - self.__o8
         pos = np.dot(self.__M8, pos)
-        return Functions.cec17_8(pos[0], pos[1]) + self.opt8
+        return Functions.cec17_8(pos[0], pos[1]) + self.C17_8_Opt
 
     def C17_9(self, x, y):
         pos = np.array([x, y])
         pos = ((pos - self.__o9) * 1000)/100
         pos = np.dot(self.__M9, pos)
-        return Functions.cec17_9(pos[0], pos[1]) + self.opt9
+        return Functions.cec17_9(pos[0], pos[1]) + self.C17_9_Opt
 
     def C17_20(self, x, y):
         N = 3
@@ -691,7 +691,7 @@ class Functions:
         bias = [0, 100, 200]
         g = [Functions.cec17_3, Functions.cec17_10, Functions.cec17_4]
         scaling = [(2.048/100), 1, (5.12/100)]
-        return Functions.CompositeF(x, y, self.__o20, self.__M20, sigma, lambda_, bias, g, scaling, N) + self.opt20
+        return Functions.CompositeF(x, y, self.__o20, self.__M20, sigma, lambda_, bias, g, scaling, N) + self.C17_20_Opt
 
     def C17_21(self, x, y):
         N = 3
@@ -700,7 +700,7 @@ class Functions:
         bias = [0, 100, 200]
         g = [Functions.cec17_4, Functions.cec17_14, Functions.cec17_9]
         scaling = [(5.12/100), (600/100), (1000/100)]
-        return Functions.CompositeF(x, y, self.__o21, self.__M21, sigma, lambda_, bias, g, scaling, N) + self.opt21
+        return Functions.CompositeF(x, y, self.__o21, self.__M21, sigma, lambda_, bias, g, scaling, N) + self.C17_21_Opt
 
     def C17_22(self, x, y):
         N = 4
@@ -709,7 +709,7 @@ class Functions:
         bias = [0, 100, 200, 300]
         g = [Functions.cec17_3, Functions.cec17_12, Functions.cec17_9, Functions.cec17_4]
         scaling = [(2.048/100), 1, (1000/100), (5.12/100)]
-        return Functions.CompositeF(x, y, self.__o22, self.__M22, sigma, lambda_, bias, g, scaling, N) + self.opt22
+        return Functions.CompositeF(x, y, self.__o22, self.__M22, sigma, lambda_, bias, g, scaling, N) + self.C17_22_Opt
 
     def C17_23(self, x, y):
         N = 4
@@ -718,7 +718,7 @@ class Functions:
         bias = [0, 100, 200, 300]
         g = [Functions.cec17_12, Functions.cec17_10, Functions.cec17_14, Functions.cec17_4]
         scaling = [1, 1, (600/100), (5.12/100)]
-        return Functions.CompositeF(x, y, self.__o23, self.__M23, sigma, lambda_, bias, g, scaling, N) + self.opt23
+        return Functions.CompositeF(x, y, self.__o23, self.__M23, sigma, lambda_, bias, g, scaling, N) + self.C17_23_Opt
 
     def C17_24(self, x, y):
         N = 5
@@ -727,7 +727,7 @@ class Functions:
         bias = [0, 100, 200, 300, 400]
         g = [Functions.cec17_4, Functions.cec17_16, Functions.cec17_12, Functions.cec17_11, Functions.cec17_3]
         scaling = [(5.12/100), 0.05, 1, 1, (2.048/100)]
-        return Functions.CompositeF(x, y, self.__o24, self.__M24, sigma, lambda_, bias, g, scaling, N) + self.opt24
+        return Functions.CompositeF(x, y, self.__o24, self.__M24, sigma, lambda_, bias, g, scaling, N) + self.C17_24_Opt
 
     def C17_25(self, x, y):
         N = 5
@@ -736,7 +736,7 @@ class Functions:
         bias = [0, 100, 200, 300, 400]
         g = [Functions.cec17_5, Functions.cec17_9, Functions.cec17_14, Functions.cec17_3, Functions.cec17_4]
         scaling = [1, (1000/100), (600/100), (2.048/100), (5.12/100)]
-        return Functions.CompositeF(x, y, self.__o25, self.__M25, sigma, lambda_, bias, g, scaling, N) + self.opt25
+        return Functions.CompositeF(x, y, self.__o25, self.__M25, sigma, lambda_, bias, g, scaling, N) + self.C17_25_Opt
 
     def C17_26(self, x, y):
         N = 6
@@ -745,7 +745,7 @@ class Functions:
         bias = [0, 100, 200, 300, 400, 500]
         g = [Functions.cec17_17, Functions.cec17_4, Functions.cec17_9, Functions.cec17_1, Functions.cec17_10, Functions.cec17_5]
         scaling = [0.05, (5.12/100), (1000/100), 1, 1, 1]
-        return Functions.CompositeF(x, y, self.__o26, self.__M26, sigma, lambda_, bias, g, scaling, N) + self.opt26
+        return Functions.CompositeF(x, y, self.__o26, self.__M26, sigma, lambda_, bias, g, scaling, N) + self.C17_26_Opt
 
     def C17_27(self, x, y):
         N = 6
@@ -754,7 +754,7 @@ class Functions:
         bias = [0, 100, 200, 300, 400, 500]
         g = [Functions.cec17_12, Functions.cec17_14, Functions.cec17_11, Functions.cec17_3, Functions.cec17_16, Functions.cec17_5]
         scaling = [1, (600/100), 1, (2.048/100), 0.05, 1]
-        return Functions.CompositeF(x, y, self.__o27, self.__M27, sigma, lambda_, bias, g, scaling, N) + self.opt27
+        return Functions.CompositeF(x, y, self.__o27, self.__M27, sigma, lambda_, bias, g, scaling, N) + self.C17_27_Opt
 
     #CEC2017 Unofficial Hybrid FUNCTIONS
     
@@ -764,7 +764,7 @@ class Functions:
         scalings = [1, (2.048 / 100.0), (5.12 / 100.0)]
         p = [0.2,0.4,0.4]
         maxvals = [920327029.7635213, 1289475268.7157953, 20788.686325053488]
-        return Functions.HybridF(x, y, self.__o10, self.__M10, self.opt10, g, scalings, p, maxvals, N)
+        return Functions.HybridF(x, y, self.__o10, self.__M10, self.C17_10_Opt, g, scalings, p, maxvals, N)
 
     def U_C17_11(self, x, y):
         N = 3
@@ -772,7 +772,7 @@ class Functions:
         scalings = [1, 10, 1]
         p = [0.3,0.3,0.4]
         maxvals = [9437166195.012167, 850.9704014304018, 9437166195.012167]
-        return Functions.HybridF(x, y, self.__o11, self.__M11, self.opt11, g, scalings, p, maxvals, N)
+        return Functions.HybridF(x, y, self.__o11, self.__M11, self.C17_11_Opt, g, scalings, p, maxvals, N)
 
     def U_C17_12(self, x, y):
         N = 3
@@ -780,7 +780,7 @@ class Functions:
         scalings = [1, (2.048 / 100.0), 0.1]
         p = [0.3,0.3,0.4]
         maxvals = [26120184896.470776, 440378417.16002095, 13120.221228217259]
-        return Functions.HybridF(x, y, self.__o12, self.__M12, self.opt12, g, scalings, p, maxvals, N)
+        return Functions.HybridF(x, y, self.__o12, self.__M12, self.C17_12_Opt, g, scalings, p, maxvals, N)
 
     def U_C17_13(self, x, y):
         N = 4
@@ -788,7 +788,7 @@ class Functions:
         scalings = [1, 1, 1, (5.12 / 100.0)]
         p = [0.2,0.2,0.2,0.4]
         maxvals = [25064935171.93617, 22.35039726600168, 610.3106419565484, 10769.79796198694]
-        return Functions.HybridF(x, y, self.__o13, self.__M13, self.opt13, g, scalings, p, maxvals, N)
+        return Functions.HybridF(x, y, self.__o13, self.__M13, self.C17_13_Opt, g, scalings, p, maxvals, N)
 
     def U_C17_14(self, x, y):
         N = 4
@@ -796,7 +796,7 @@ class Functions:
         scalings = [1, 0.05, (5.12 / 100.0), (2.048 / 100.0)]
         p = [0.2,0.2,0.3,0.3]
         maxvals = [66523193237.7067, 80027.9818838402, 64279.02220425071, 97520693931.19865]
-        return Functions.HybridF(x, y, self.__o14, self.__M14, self.opt14, g, scalings, p, maxvals, N)
+        return Functions.HybridF(x, y, self.__o14, self.__M14, self.C17_14_Opt, g, scalings, p, maxvals, N)
 
     def U_C17_15(self, x, y):
         N = 4
@@ -804,7 +804,7 @@ class Functions:
         scalings = [1, 0.05, (2.048 / 100.0), 10]
         p = [0.2,0.2,0.3,0.3]
         maxvals = [1.9950882676184145, 1012.3638561714713, 37726102.70372157, 1198.993616122637]
-        return Functions.HybridF(x, y, self.__o15, self.__M15, self.opt15, g, scalings, p, maxvals, N)
+        return Functions.HybridF(x, y, self.__o15, self.__M15, self.C17_15_Opt, g, scalings, p, maxvals, N)
 
     def U_C17_16(self, x, y):
         N = 5
@@ -812,7 +812,7 @@ class Functions:
         scalings = [0.05, 1, 0.05, 10, (5.12 / 100.0)]
         p = [0.1,0.2,0.2,0.2,0.3]
         maxvals = [78.30154629455606, 22.35038160534429, 30937607692973.375, 923.7261728636483, 11649.452607784084]
-        return Functions.HybridF(x, y, self.__o16, self.__M16, self.opt16, g, scalings, p, maxvals, N)
+        return Functions.HybridF(x, y, self.__o16, self.__M16, self.C17_16_Opt, g, scalings, p, maxvals, N)
 
     def U_C17_17(self, x, y):
         N = 5
@@ -820,7 +820,7 @@ class Functions:
         scalings = [1, 1, (5.12 / 100.0), 0.05, 1]
         p = [0.2,0.2,0.2,0.2,0.2]
         maxvals = [22373180876.23683, 22.350398515556826, 38762.30843148558, 48476.29481432794, 23506871051.9861]
-        return Functions.HybridF(x, y, self.__o17, self.__M17, self.opt17, g, scalings, p, maxvals, N)
+        return Functions.HybridF(x, y, self.__o17, self.__M17, self.C17_17_Opt, g, scalings, p, maxvals, N)
 
     def U_C17_18(self, x, y):
         N = 5
@@ -828,7 +828,7 @@ class Functions:
         scalings = [1, (5.12 / 100.0), 0.05, 1, 1]
         p = [0.2,0.2,0.2,0.2,0.2]
         maxvals = [37121469425.25292, 37808.92799386223, 1724440259754413.5, 7.943383250350357, 1.9950861780009306]
-        return Functions.HybridF(x, y, self.__o18, self.__M18, self.opt18, g, scalings, p, maxvals, N)
+        return Functions.HybridF(x, y, self.__o18, self.__M18, self.C17_18_Opt, g, scalings, p, maxvals, N)
 
     def U_C17_19(self, x, y):
         N = 6
@@ -836,7 +836,7 @@ class Functions:
         scalings = [0.05, 0.05, 1, (5.12 / 100.0), 10, 1]
         p = [0.1,0.1,0.2,0.2,0.2,0.2]
         maxvals = [4964.282061119737, 78.30151102037843, 22.35040207626628, 19434.63469991283, 1333.2074338833106, 764.0981301770795]
-        return Functions.HybridF(x, y, self.__o19, self.__M19, self.opt19, g, scalings, p, maxvals, N)
+        return Functions.HybridF(x, y, self.__o19, self.__M19, self.C17_19_Opt, g, scalings, p, maxvals, N)
 
     #HELPER FUNCTIONS
     #bent cigar function
