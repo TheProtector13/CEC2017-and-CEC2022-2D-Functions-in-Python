@@ -20,7 +20,7 @@ F = Functions()
   - **CEC2017:** _C17_1 &harr; C17_9 | C17_20 &harr; C17_27_
   - **CEC2022:** _C22_1 &harr; C22_5 | C22_9 &harr; C22_12_
 - Unofficial functions (Higher-dimensional functions adapted for 2D inputs; Hybrid functions)
-  - **CEC2017:** _U_C17_10 &harr; U_C17_19_
+  - **CEC2017:** _U_C17_10 &harr; U_C17_19 | U_C17_28 &harr; U_C17_29_
   - **CEC2022:** _U_C22_6 &harr; U_C22_8_
 - Adjusted CEC2022 composite functions to match the surface plots in the paper (unofficial; uses different sigma and lambda values)
   - _C22_9_Alt &harr; C22_12_Alt_
@@ -273,6 +273,18 @@ plt.show()
     <td><b>U_C17_19</b></td>
     <td><img src="FIG_Output/27_U_C17_19.png" width="100%"></td>
     <td><img src="FIG_Output/27_U_C17_19_contour.png" width="100%"></td>
+  </tr>
+
+  <tr>
+    <td><b>U_C17_28</b></td>
+    <td><img src="FIG_Output/44_U_C17_28.png" width="100%"></td>
+    <td><img src="FIG_Output/44_U_C17_28_contour.png" width="100%"></td>
+  </tr>
+
+  <tr>
+    <td><b>U_C17_29</b></td>
+    <td><img src="FIG_Output/45_U_C17_29.png" width="100%"></td>
+    <td><img src="FIG_Output/45_U_C17_29_contour.png" width="100%"></td>
   </tr>
 
   <tr>
