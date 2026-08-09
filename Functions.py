@@ -8,7 +8,7 @@ class Functions:
                     self.C17_27]
         # 2D converted hybrid functions from CEC2017
         self.CEC2017_Unofficial = [self.U_C17_10, self.U_C17_11, self.U_C17_12, self.U_C17_13, self.U_C17_14, self.U_C17_15, self.U_C17_16,
-                                self.U_C17_17, self.U_C17_18, self.U_C17_19]
+                                self.U_C17_17, self.U_C17_18, self.U_C17_19, self.U_C17_28, self.U_C17_29]
         self.CEC2022 = [self.C22_1, self.C22_2, self.C22_3, self.C22_4, self.C22_5, self.C22_9, self.C22_10, self.C22_11, self.C22_12]
         # Alternate implementations of the CEC2022 Composite Functions, that looks more similar to the ones present in the technical report
         self.CEC2022_Alt = [self.C22_9_Alt, self.C22_10_Alt, self.C22_11_Alt, self.C22_12_Alt]
@@ -118,6 +118,18 @@ class Functions:
                               [-4.7112415775243385e+01,  -7.4131648575017067e+01],
                               [4.5671168557215097e+01,   5.7012009423697370e+00],
                               [-5.3247284608542586e+01,  -2.7861786624352348e+01]])
+        self.__o28 = np.array([[-7.2149039555410411e+01,  -1.5946078747485801e+01],
+                               [8.4764910603298294e+00,  -4.8396487958913895e+01],
+                               [1.4360725186001847e+01,   3.4128909722961911e+00],
+                               [-4.8907807782715096e+01,   4.4328416450102075e+01],
+                               [-3.3041987836846147e+01,  -1.8919704602528228e+01],
+                               [7.6233389696214999e+01,  -2.7910148812416082e+00]])
+        self.__o29 = np.array([[-1.6674622156040098e+00,  -3.3466105066922545e+01],
+                               [-4.2805993584359996e+01,   7.1250627044239380e+01],
+                               [5.7346262667955024e+01,  -3.6199983270931980e+01],
+                               [6.8689866656758767e+01,  -6.5151799269556903e+01],
+                               [-5.4851121913106702e+01,   2.8530058255665963e+01],
+                               [-7.5279848022051084e+01,   2.5589449402685020e+01]])
         # Rotation Matrices for CEC2017
         self.__M1 = np.array([[-9.1733570022126232e-01,   3.9811457282994084e-01],
                               [3.9811457282994095e-01,   9.1733570022126232e-01]])
@@ -286,6 +298,38 @@ class Functions:
                                 [1.9737115725674309e-01,   9.8032883579089591e-01]],
                                [[8.1411081433112664e-01,  -5.8070955045453698e-01],
                                 [-5.8070955045453698e-01,  -8.1411081433112598e-01]]])
+        self.__M28 = np.array([[[-2.2720217177395541e+00,  -9.1391567393449691e-01],
+                                [-1.0103376064089387e+00,  -1.7268159647549344e+00]],
+                               [[-2.0703323789546541e-01,  -9.7833390946369647e-01],
+                                [9.7833390946369614e-01,  -2.0703323789546452e-01]],
+                               [[3.4075175194102991e-01,  -9.4015330853489998e-01],
+                                [-9.4015330853489998e-01,  -3.4075175194102980e-01]],
+                               [[9.4041912065717514e-01,  -3.4001746646662961e-01],
+                                [3.4001746646662900e-01,   9.4041912065717503e-01]],
+                               [[-4.8878332162996352e-01,  -8.7240521805889037e-01],
+                                [8.7240521805889049e-01,  -4.8878332162996285e-01]],
+                               [[9.9948332880851520e-01,  3.2141490846731957e-02],
+                                [-3.2141490846731069e-02,   9.9948332880851465e-01]],
+                               [[1.2870604947844827e-01,  -9.9168278840950530e-01],
+                                [9.9168278840950541e-01,   1.2870604947844838e-01]],
+                               [[-6.7877090342010193e-01,   7.3435009407656338e-01],
+                                [-7.3435009407656382e-01,  -6.7877090342010293e-01]]])
+        self.__M29 = np.array([[[-1.8647645080767752e+00,  -2.1794910278239663e+00],
+                                [1.3302457036322579e+00,  -5.4023670922402345e-02]],
+                               [[1.5796900512818385e-01,   9.8744407103329679e-01],
+                                [9.8744407103329834e-01,  -1.5796900512818274e-01]],
+                               [[-7.7450155926099495e-01,   6.3257199961924249e-01],
+                                [-6.3257199961924293e-01,  -7.7450155926099529e-01]],
+                               [[1.3139007082618265e-01,  -9.9133074666747367e-01],
+                                [9.9133074666747367e-01,   1.3139007082618256e-01]],
+                               [[-1.6301822226033258e-01,   9.8662305832120156e-01],
+                                [-9.8662305832120145e-01,  -1.6301822226033263e-01]],
+                               [[9.6876852201464292e-01,   2.4796683397899061e-01],
+                                [2.4796683397899061e-01,  -9.6876852201464281e-01]],
+                               [[-2.5796210554063281e-02,   9.9966722239005656e-01],
+                                [9.9966722239005579e-01,   2.5796210554062504e-02]],
+                               [[-9.9921674220015388e-01,   3.9571480979502416e-02],
+                                [3.9571480979502388e-02,   9.9921674220015400e-01]]])
         # Shift Vectors for CEC2022
         self.__o1_22 = np.array([-5.5938326705218444e+01,   4.5430653935964642e+00])
         self.__o2_22 = np.array([3.2510725014149543e+01,   7.7553128114693379e+00])
@@ -462,7 +506,7 @@ class Functions:
         self.CEC2017_Opts = [self.C17_1_Opt, self.C17_2_Opt, self.C17_3_Opt, self.C17_4_Opt, self.C17_5_Opt, self.C17_6_Opt, self.C17_7_Opt, self.C17_8_Opt, self.C17_9_Opt,
                             self.C17_20_Opt, self.C17_21_Opt, self.C17_22_Opt, self.C17_23_Opt, self.C17_24_Opt, self.C17_25_Opt, self.C17_26_Opt, self.C17_27_Opt]
         self.CEC2017_Unofficial_Opts = [self.C17_10_Opt, self.C17_11_Opt, self.C17_12_Opt, self.C17_13_Opt, self.C17_14_Opt, self.C17_15_Opt, self.C17_16_Opt, self.C17_17_Opt,
-                                        self.C17_18_Opt, self.C17_19_Opt]
+                                        self.C17_18_Opt, self.C17_19_Opt, self.C17_28_Opt, self.C17_29_Opt]
         self.CEC2022_Opts = [self.C22_1_Opt, self.C22_2_Opt, self.C22_3_Opt, self.C22_4_Opt, self.C22_5_Opt, self.C22_9_Opt, self.C22_10_Opt, self.C22_11_Opt, self.C22_12_Opt]
         self.CEC2022_Alt_Opts = [self.C22_9_Opt, self.C22_10_Opt, self.C22_11_Opt, self.C22_12_Opt]
         self.CEC2022_Unofficial_Opts = [self.C22_6_Opt, self.C22_7_Opt, self.C22_8_Opt]
@@ -741,7 +785,7 @@ class Functions:
     def C17_26(self, x, y):
         N = 6
         sigma = [10,20,30,40,50,60]
-        lambda_ = [10,10,2.5,1e-26,1e-6,1]
+        lambda_ = [10,10,2.5,1e-26,1e-6,5e-4]
         bias = [0, 100, 200, 300, 400, 500]
         g = [Functions.cec17_17, Functions.cec17_4, Functions.cec17_9, Functions.cec17_1, Functions.cec17_10, Functions.cec17_5]
         scaling = [0.05, (5.12/100), (1000/100), 1, 1, 1]
@@ -837,6 +881,48 @@ class Functions:
         p = [0.1,0.1,0.2,0.2,0.2,0.2]
         maxvals = [4964.282061119737, 78.30151102037843, 22.35040207626628, 19434.63469991283, 1333.2074338833106, 764.0981301770795]
         return Functions.HybridF(x, y, self.__o19, self.__M19, self.C17_19_Opt, g, scalings, p, maxvals, N)
+
+    #CEC2017 Hybrid Composite FUNCTIONS
+
+    def U_C17_28(self, x, y):
+        N = 3
+        sigma = [10,30,50]
+        _lambda = [1, 1, 1]
+        bias = [0, 100, 200]
+        subNs = [4,4,5]
+        gs = [[Functions.cec17_1, Functions.cec17_17, Functions.cec17_4, Functions.cec17_3],
+              [Functions.cec17_5, Functions.cec17_17, Functions.cec17_3, Functions.cec17_9],
+              [Functions.cec17_15, Functions.cec17_12, Functions.cec17_18, Functions.cec17_9, Functions.cec17_4]]
+        scalings = [[1, 0.05, (5.12 / 100.0), (2.048 / 100.0)],
+                    [1, 0.05, (2.048 / 100.0), 10],
+                    [0.05, 1, 0.05, 10, (5.12 / 100.0)]]
+        ps = [[0.2,0.2,0.3,0.3],
+              [0.2,0.2,0.3,0.3],
+              [0.1,0.2,0.2,0.2,0.3]]
+        maxvals = [[66523193237.7067, 80027.9818838402, 64279.02220425071, 97520693931.19865],
+                   [1.9950882676184145, 1012.3638561714713, 37726102.70372157, 1198.993616122637],
+                   [78.30154629455606, 22.35038160534429, 30937607692973.375, 923.7261728636483, 11649.452607784084]]
+        return Functions.HybridCompositeF(x, y, self.__o28, self.__M28, sigma, _lambda, bias, gs, scalings, ps, maxvals, N, subNs) + self.C17_28_Opt
+
+    def U_C17_29(self, x, y):
+        N = 3
+        sigma = [10,30,50]
+        _lambda = [1, 1, 1]
+        bias = [0, 100, 200]
+        subNs = [4,5,5]
+        gs = [[Functions.cec17_1, Functions.cec17_17, Functions.cec17_4, Functions.cec17_3],
+              [Functions.cec17_10, Functions.cec17_12, Functions.cec17_4, Functions.cec17_17, Functions.cec17_11],
+              [Functions.cec17_1, Functions.cec17_4, Functions.cec17_18, Functions.cec17_13, Functions.cec17_5]]
+        scalings = [[1, 0.05, (5.12 / 100.0), (2.048 / 100.0)],
+                    [1, 1, (5.12 / 100.0), 0.05, 1],
+                    [1, (5.12 / 100.0), 0.05, 1, 1]]
+        ps = [[0.2,0.2,0.3,0.3],
+              [0.2,0.2,0.2,0.2,0.2],
+               [0.2,0.2,0.2,0.2,0.2]]
+        maxvals = [[66523193237.7067, 80027.9818838402, 64279.02220425071, 97520693931.19865],
+                   [22373180876.23683, 22.350398515556826, 38762.30843148558, 48476.29481432794, 23506871051.9861],
+                   [37121469425.25292, 37808.92799386223, 1724440259754413.5, 7.943383250350357, 1.9950861780009306]]
+        return Functions.HybridCompositeF(x, y, self.__o29, self.__M29, sigma, _lambda, bias, gs, scalings, ps, maxvals, N, subNs) + self.C17_29_Opt
 
     #HELPER FUNCTIONS
     #bent cigar function
@@ -951,10 +1037,8 @@ class Functions:
     #Levy function
     @staticmethod
     def cec17_8(x, y):
-        #x = x + 1
-        #y = y + 1
-        W1 = 1 + (x - 1) / 4
-        W2 = 1 + (y - 1) / 4
+        W1 = 1 + (x - 1) / 4  
+        W2 = 1 + (y - 1) / 4 
         part1 = math.sin(math.pi * W1) ** 2
         mid_sum = ((W1 - 1.0) ** 2) * (1.0 + 10.0 * (math.sin(math.pi * W1 + 1.0) ** 2))
         part3 = ((W2 - 1.0) ** 2) * (1.0 + (math.sin(2.0 * math.pi * W2) ** 2))
@@ -1102,4 +1186,12 @@ class Functions:
             if r_flags[i]:
                 pos = np.dot(M[i], pos)
             F += Wi[i] * (lambda_[i] * g_func[i](pos[0], pos[1]) + bias[i])
+        return F
+
+    @staticmethod
+    def HybridCompositeF(x, y, o, M, sigma, lambda_, biases, g_funcs, scalings, P, Maxvals, N, Sub_Ns):
+        Wi = Functions.__composite_wi(x, y, o, sigma, N)
+        F = 0.0
+        for i in range(N):
+            F += Wi[i] * Functions.HybridF(x, y, o[i], M[i], biases[i], g_funcs[i], scalings[i], P[i], Maxvals[i], Sub_Ns[i])
         return F
